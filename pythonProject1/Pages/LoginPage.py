@@ -13,16 +13,16 @@ class LoginPage:
 
     def getUserInput(self):
         return self.driver.find_element(*LoginPageLocators.USER_INPUT)
-        print('Completar usuario')
+      
 
     def getPassInput(self):
         return self.driver.find_element(*LoginPageLocators.PASS_INPUT)
-        print('Completar password')
+      
 
     def getLoginBtn(self):
         return self.driver.find_element(*LoginPageLocators.LOGIN_BTN)
-        print('Presiona Botón Login')
+     
 
     def getAccountTitle(self):
         return self.driver.find_element(*LoginPageLocators.ACCOUNT_TITLE)
-        print('Comparo el titulo')
+     
